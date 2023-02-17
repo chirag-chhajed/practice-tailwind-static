@@ -6,6 +6,7 @@ import HomeCardTwo from "../data/HomeCardTwo";
 import CardOne from "../components/HomePage/CardOne";
 import CardTwo from "../components/HomePage/CardTwo";
 import CardThree from "../components/HomePage/CardThree";
+import CustomerSection from "../layouts/CustomerCard";
 
 const HomePage = () => {
   return (
@@ -109,13 +110,14 @@ const HomePage = () => {
       <section className="p-6">
         <h2 className="mb-4 text-2xl font-bold">The Most Popular Packages</h2>
         <div className="flex flex-col items-center gap-4 sm:grid sm:grid-cols-2 sm:place-items-center lg:grid-cols-3 xl:grid-cols-4">
-        <CardThree img={"/HomeCard3/1.png"}/>
-        <CardThree img={"/HomeCard3/2.png"}/>
-        <CardThree img={"/HomeCard3/3.png"}/>
-        <CardThree img={"/HomeCard3/4.png"}/>
+          <CardThree img={"/HomeCard3/1.png"} />
+          <CardThree img={"/HomeCard3/2.png"} />
+          <CardThree img={"/HomeCard3/3.png"} />
+          <CardThree img={"/HomeCard3/4.png"} />
         </div>
-        
       </section>
+      <CustomerSection/>
+      
     </RootLayout>
   );
 };
