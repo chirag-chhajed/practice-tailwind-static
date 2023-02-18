@@ -1,11 +1,12 @@
 import React from 'react'
 import { createRoutesFromElements,Route,createBrowserRouter,RouterProvider  } from 'react-router-dom'
-import { HomePage } from './pages'
+import { HomePage,About } from './pages'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' >
       <Route index element={<HomePage/>}/>
+      <Route path='about' element={<About/>} />
 
     </Route>
   )

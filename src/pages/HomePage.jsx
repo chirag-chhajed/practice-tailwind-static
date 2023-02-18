@@ -1,4 +1,3 @@
-import React from "react";
 import RootLayout from "../layouts/RootLayout";
 import HomeCardOne from "../data/HomeCardOne";
 import HomeCardTwo from "../data/HomeCardTwo";
@@ -36,7 +35,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="flex flex-col gap-6">
-        <div className="flex flex-col items-center gap-6 sm:justify-around sm:flex-row ">
+        <div className="flex flex-col items-center gap-6 sm:justify-around sm:flex-row">
           <img className="w-[300px]" src="/HomeCard1/5.png" alt="5" />
           <div className="flex flex-col gap-4 w-[300px]">
             <h4 className="text-sm uppercase text-gray">

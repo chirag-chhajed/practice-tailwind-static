@@ -12,7 +12,7 @@ const CustomerSection = () => {
 
 const CustomerCard = () => {
   return (
-    <div className="flex flex-col border border-black rounded-lg shadow w-[300px] items-center p-4 sm:w-[400px]">
+    <div className="flex flex-col  rounded-lg shadow-xl w-[300px] items-center p-4 sm:w-[400px]">
       <img src="/human.png" alt="img" />
       <figcaption>Lyod Gomez</figcaption>
       <div className="self-start">

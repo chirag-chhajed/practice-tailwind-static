@@ -8,11 +8,11 @@ const Header = () => {
         <div>
             <img className="h-10 md:h-14" src={logo} alt="logo" />
         </div>
-        <nav className="justify-center hidden gap-4 sm:flex">
-            <NavLink>Home</NavLink>
-            <NavLink>About Us</NavLink>
-            <NavLink>Tour Packages</NavLink>
-            <NavLink>Contact Us</NavLink>
+        <nav className="justify-center hidden gap-4 sm:flex ">
+            <NavLink to={"/"}>Home</NavLink>
+            <NavLink to={"/about"}>About Us</NavLink>
+            <NavLink to={"/tour"}>Tour Packages</NavLink>
+            <NavLink to={"/contact"}>Contact Us</NavLink>
 
         </nav>
         <div className="hidden sm:flex">
