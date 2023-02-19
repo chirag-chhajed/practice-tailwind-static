@@ -6,6 +6,7 @@ import CardOne from "../components/HomePage/CardOne";
 import CardTwo from "../components/HomePage/CardTwo";
 import CardThree from "../components/HomePage/CardThree";
 import CustomerSection from "../layouts/CustomerCard";
+import Form from "../components/Form";
 
 const HomePage = () => {
   return (
@@ -106,6 +107,8 @@ const HomePage = () => {
           <CardTwo key={index} {...card} />
         ))}
       </section>
+      <Form/>
+
       <section className="p-6">
         <h2 className="mb-4 text-2xl font-bold">The Most Popular Packages</h2>
         <div className="flex flex-col items-center gap-4 sm:grid sm:grid-cols-2 sm:place-items-center lg:grid-cols-3 xl:grid-cols-4">

@@ -7,6 +7,13 @@
     height: 0px;
 }
 
+header nav a{
+    padding-inline: 0.5rem;
+    padding-block: 0.25rem;
+    border-radius: 0.5rem;
+}
+
 header nav a.active {
     background: orange;
+    
 }
